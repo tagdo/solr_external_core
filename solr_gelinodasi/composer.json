@@ -1,0 +1,28 @@
+{
+    "name": "tagdo/solr-gelinodasi",
+    "type": "typo3-cms-extension",
+    "description": "",
+    "authors": [
+        {
+            "name": "Ayhan Koyun",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": "^11.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tagdo\\SolrGelinodasi\\": "Classes"
+        }
+    },
+    "replace": {
+        "tagdo/solr_gelinodasi": "self.version",
+        "typo3-ter/solr_gelinodasi": "self.version"
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "solr_gelinodasi"
+        }
+    }
+}
